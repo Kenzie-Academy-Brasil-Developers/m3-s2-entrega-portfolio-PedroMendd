@@ -1,0 +1,34 @@
+.title {
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: clamp(2.625rem, 5vw, 3rem);
+}
+
+.title.md {
+  font-size: clamp(2.25rem, 5vw, 2.5rem);
+}
+
+.title.sm {
+  font-size: 1.375rem;
+}
+
+label {
+  font-size: 0.875rem;
+  color: var(--color-primary);
+}
+
+p {
+  font-size: 1rem;
+}
+
+.link-header{
+    color: var(--color-white);
+}
+
+.link-saiba-mais {
+    color: var(--color-link);
+}
+
+.link-saiba-mais:hover {
+    color: var(--color-link-Hover)
+}

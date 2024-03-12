@@ -1,0 +1,12 @@
+.techContainer {
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  
+
+  

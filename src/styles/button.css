@@ -1,0 +1,22 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+
+    height: 2.4375rem;
+
+    background-color: var(--color-primary);
+
+    color: var(--color-white);
+
+    border-radius: 12px;
+    padding: 0 2.5rem;
+
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: var(--color-primary-Hover);
+}

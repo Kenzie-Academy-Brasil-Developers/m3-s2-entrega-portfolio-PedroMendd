@@ -1,0 +1,17 @@
+.AboutBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+
+.AboutBox p {
+  width: 65%;
+  line-height: 1.8;
+}
+
+@media (min-width: 600px) {
+  .AboutBox {
+    flex-direction: row;
+  }
+}

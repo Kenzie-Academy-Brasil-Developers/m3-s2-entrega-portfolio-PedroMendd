@@ -1,0 +1,24 @@
+.projectFlex{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projectFlex li {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+.projectFlex img {
+    width: 2.3125rem;
+    height: 2.375rem;
+}
+
+@media (min-width: 700px) {
+    .projectFlex {
+      max-width: 48%;
+    }
+  }

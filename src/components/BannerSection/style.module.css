@@ -1,0 +1,23 @@
+.BannerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.UserContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.UserContainer button {
+  width: 50%;
+}
+
+@media (min-width: 600px) {
+  .BannerContainer {
+    margin-top: 4rem;
+    flex-direction: row;
+  }
+}
